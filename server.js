@@ -15,7 +15,7 @@ app.use(require('./routes/api-routes'));
 app.use(require('./routes/html-routes'));
 
 mongoose.connect(
-    process.env.MONGODB_URI || 'mongodb://localhost/TRN-HW-17',
+    process.env.MONGODB_URI || 'mongodb://localhost/HW17',
     {
         useNewUrlParser: true,
         useUnifiedTopology: true,
